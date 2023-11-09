@@ -18,8 +18,8 @@
     <body>
         <div class="main-container">
             <h4>Tus datos capitalizados: </h4><br>
-            <p>Nombre: ${sessionScope.nombre}</p><br>
-            <p>Apellidos: ${sessionScope.apellido}</p>
+            <p>Nombre: ${requestScope.nombre}</p><br>
+            <p>Apellidos: ${requestScope.apellido}</p>
         <div>
     </body>
 </html>

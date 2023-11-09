@@ -45,7 +45,6 @@ public class CapitalizacionServlet extends HttpServlet {
 
         String nombre = (String) request.getAttribute("nombre");
         String apellido = (String) request.getAttribute("apellido");
-
         request.setAttribute("nombre", nombre);
         request.setAttribute("apellido", apellido);
 
